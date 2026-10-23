@@ -15,21 +15,21 @@ An AI build platform for interfaces, apps, games (including 3D) and back-end int
 **Architecture I designed**
 - **Every decision has a named source** — stated by the prompt, cited by name from the user's own earlier project, carried from the project's record, or resolved by the user in the open — and builds are checked against them.
 - **Three roles** — a planning layer that owns the conversation, memory and judgement, and is the only channel between a front-end and a back-end builder that never share a context.
-- **Main over flash** — a strong model writes and watches the plan, a fast model performs it.
+- **Large model plans, small model builds** — a larger model writes and supervises the plan, a faster, cheaper model carries it out.
 - **The user's agent as lead** — their own coding agent directs FlowMerge, which adds memory, readers and checks, each returned as a typed result.
 
 **Built by directing Claude Code**
 - An MCP server (21 tools) with OAuth 2.1 + PKCE one-click pairing; keys scoped to one task or one project, with credit ceilings
 - Long-running coding agents in sandboxes (Vercel Sandbox, Upstash Box) with checkpoints, budgets and a stall guard
 - Durable workflow pipeline with replay-safe writes; six model seats routed by measured speed and price
-- Verification by measurement: compiler checks, a runtime referee for 3D scenes and games, a paint read of the rendered page, conformance against agreed decisions
+- Automated checks on every build: TypeScript compilation, runtime tests that confirm 3D scenes and games render and respond to input, visual render checks, and conformance against agreed design decisions
 - An append-only, hash-chained ledger; a change map that reads the repository at any commit
-- Postgres (Neon) + pgvector, migrated from Turso behind a single seam
+- Postgres (Neon) + pgvector, migrated from Turso behind a single data-access layer
 
 **A few things I diagnosed and decided**
 - **Cost:** asked why a paid agent run kept re-reading its own context when the platform already had memory to hold it; redesigned the build stage as the unit to compress and recall — cost per step fell 2.7×, with no loss of quality allowed.
 - **Leaks:** set the rule that the product shows people their work but never how it works; the audit found 29 leaks with one root cause, now one allow-list, plus a check on the shipped browser bundles.
-- **Drift:** had 203 of my own proposals checked word for word against the code — 69 faithful, 48 narrowed, 71 not yet built — and used the list to set the work order.
+- **Database migration:** when the free read allowance ran out and took sign-in down, moved production to Postgres (Neon) with pgvector behind one data-access layer, cut over with sign-in restored, and made polling visibility-aware to fit the new billing.
 
 The code is private while FlowMerge is in development. **A walkthrough or a demo account is available on request.**
 
