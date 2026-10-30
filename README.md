@@ -35,7 +35,7 @@ Conceptual attempts at an architecture, ideas I wanted out of my head and runnin
 | **CryptoIntel** | Crypto news, sentiment and price moves in one place: seven feeds, live market data and an AI read of the latest headlines | [code](https://github.com/Cruisercc3/crypto-intel) · [live](https://cryptointel.site) |
 | **DropIntel** | Paste a supplier product link and get GO, WAIT or AVOID, with six signals behind it | [code](https://github.com/Cruisercc3/drop-intel) · [live](https://v0-drop-intel-platform-architecture.vercel.app) |
 | **CryptoPulse** | Live Polymarket odds turned into crypto trading signals, with one shared rule and an AI brief on each market | [code](https://github.com/Cruisercc3/cryptopulse) · [live](https://thecryptopulse.xyz) |
-| **TermTone** | A command-line tool that plays a sound when a command finishes or fails, and when Claude Code needs your input. Its site is a soundboard of the same sounds | [code](https://github.com/Cruisercc3/termtone) · [live](https://v0-retro-terminal-soundboard.vercel.app) |
+| **TermTone** | A retro terminal soundboard, and a small command-line tool that plays its sounds when Claude Code finishes, when it needs you, and when any command you run ends | [code](https://github.com/Cruisercc3/termtone) · [live](https://v0-retro-terminal-soundboard.vercel.app) |
 
 Two of these drew a $2,000 purchase offer, which I declined.
 
