@@ -34,7 +34,8 @@ Conceptual attempts at an architecture, ideas I wanted out of my head and runnin
 | **AetherNode** | A crypto trading terminal on free public exchange data, with an AI read-out on every analytics card | [code](https://github.com/Cruisercc3/aethernode) · [live](https://v0-searchable-analytics-menu.vercel.app) |
 | **CryptoIntel** | Crypto news, sentiment and price moves in one place: seven feeds, live market data and an AI read of the latest headlines | [code](https://github.com/Cruisercc3/crypto-intel) · [live](https://cryptointel.site) |
 | **DropIntel** | Paste a supplier product link and get GO, WAIT or AVOID, with six signals behind it | [code](https://github.com/Cruisercc3/drop-intel) · [live](https://v0-drop-intel-platform-architecture.vercel.app) |
-| **CryptoPulse** | Polymarket prediction-market data turned into trading signals | [live](https://thecryptopulse.xyz) |
+| **CryptoPulse** | Live Polymarket odds turned into crypto trading signals, with one shared rule and an AI brief on each market | [code](https://github.com/Cruisercc3/cryptopulse) · [live](https://thecryptopulse.xyz) |
+| **TermTone** | A retro terminal soundboard: twelve sounds for terminal and AI agent events, synthesised in the browser | [code](https://github.com/Cruisercc3/termtone) · [live](https://v0-retro-terminal-soundboard.vercel.app) |
 
 Two of these drew a $2,000 purchase offer, which I declined.
 
