@@ -27,13 +27,14 @@ My main project is an AI build platform in private development. The details are 
 
 ## Earlier products
 
-Three live data products I shipped with AI app builders.
+Conceptual attempts at an architecture, ideas I wanted out of my head and running. Each one tests how data, back-end hooks and AI fit together. I built them by directing v0, Vercel's AI app builder, and I'm reworking them with Claude Code.
 
-| Project | What it shows | Live |
+| Project | What it is | Links |
 |---|---|---|
-| **AetherNode** | A data-dense trading front end with live market data, charts and indicators | [live demo](https://v0-searchable-analytics-menu.vercel.app) |
-| **CryptoIntel** | A self-updating news pipeline: 130+ sources, AI sentiment analysis and live market context, on a front end that refreshes itself | [cryptointel.site](https://cryptointel.site) |
-| **CryptoPulse** | Live Polymarket prediction-market data turned into AI-analysed trading signals | [thecryptopulse.xyz](https://thecryptopulse.xyz) |
+| **AetherNode** | A crypto trading terminal on free public exchange data, with an AI read-out on every analytics card | [code](https://github.com/Cruisercc3/aethernode) · [live](https://v0-searchable-analytics-menu.vercel.app) |
+| **CryptoIntel** | Crypto news, sentiment and price moves in one place: seven feeds, live market data and an AI read of the latest headlines | [code](https://github.com/Cruisercc3/crypto-intel) · [live](https://cryptointel.site) |
+| **DropIntel** | Paste a supplier product link and get GO, WAIT or AVOID, with six signals behind it | [code](https://github.com/Cruisercc3/drop-intel) · [live](https://v0-drop-intel-platform-architecture.vercel.app) |
+| **CryptoPulse** | Polymarket prediction-market data turned into trading signals | [live](https://thecryptopulse.xyz) |
 
 Two of these drew a $2,000 purchase offer, which I declined.
 
