@@ -1,8 +1,8 @@
 # Conor Cruise
 
-**Full-stack AI engineer · product interfaces, AI agents and MCP · Dublin, Ireland**
+**Full-stack AI engineer · back end, front end and AI agents · Dublin, Ireland**
 
-I design software and ship it through my own harness: Claude Code working inside the rules, memory, checks and decision record I built around it. I decide what gets built and how it should look and behave. The agent writes the code. I judge what comes back by running it, and no screen ships until it has been driven in a real browser and screenshotted. When something breaks, I find out why, fix it, and add a check so it can't come back.
+I build full-stack software: the back end, the front end and the AI agents between them. I work through my own harness: Claude Code working inside the rules, memory, checks and decision record I built around it. The next step is directing the harness itself instead of one agent, so my work moves up a level, deciding what many agents should do and how it all fits together. I judge what comes back by running it end to end. When something breaks, I find out why, fix it, and add a check so it can't come back.
 
 The difference between the models isn't significant. What surrounds them is. That's my work: the memory, the checks, the record of what was decided, and the screens that let a person see all of it.
 
@@ -49,4 +49,4 @@ TypeScript · React · Next.js · Tailwind · Framer Motion · Radix and shadcn 
 
 [LinkedIn](https://www.linkedin.com/in/conor-cruise-50b9b02b9/) · conor.cruise848@gmail.com
 
-Open to design engineering, front-end, product and agent roles. Remote in Europe or in Dublin, full-time or contract.
+Open to full-stack, back-end, front-end and AI agent roles. Remote in Europe or in Dublin, full-time or contract.
