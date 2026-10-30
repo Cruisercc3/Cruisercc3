@@ -2,7 +2,7 @@
 
 **Full-stack AI engineer · product interfaces, AI agents and MCP · Dublin, Ireland**
 
-I design software and ship it by directing AI coding agents, mostly Claude Code. I decide what gets built and how it should look and behave. The agent writes the code. I judge what comes back by running it, and no screen ships until it has been driven in a real browser and screenshotted. When something breaks, I find out why, fix it, and add a check so it can't come back.
+I design software and ship it through my own harness: Claude Code working inside the rules, memory, checks and decision record I built around it. I decide what gets built and how it should look and behave. The agent writes the code. I judge what comes back by running it, and no screen ships until it has been driven in a real browser and screenshotted. When something breaks, I find out why, fix it, and add a check so it can't come back.
 
 The difference between the models isn't significant. What surrounds them is. That's my work: the memory, the checks, the record of what was decided, and the screens that let a person see all of it.
 
@@ -18,7 +18,7 @@ My main project is an AI build platform in private development. The details are 
 
 ## How I work
 
-- I write the plan and the constraints. Claude Code writes the code. I decide what ships.
+- I write the plan and the constraints. Claude Code writes the code inside my harness. I decide what ships.
 - I prove work with complete runs, not mocks.
 - I set the pass rule before a test, not after.
 - Every failure becomes a written rule. There are 360+ so far.
