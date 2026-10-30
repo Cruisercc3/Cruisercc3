@@ -25,9 +25,9 @@ My main project is an AI build platform in private development. The details are 
 
 ---
 
-## Earlier products
+## Other projects
 
-Conceptual attempts at an architecture, ideas I wanted out of my head and running. Each one tests how data, back-end hooks and AI fit together. I built them by directing v0, Vercel's AI app builder, and I'm reworking them with Claude Code.
+Conceptual attempts at an architecture, ideas I wanted out of my head and running. Each one tests how data, back-end hooks and AI fit together. The first five began in v0, Vercel's AI app builder, and I've reworked them with Claude Code. Cognition I built with Claude Code from the start, and it's a desktop app rather than a site.
 
 | Project | What it is | Links |
 |---|---|---|
@@ -36,6 +36,7 @@ Conceptual attempts at an architecture, ideas I wanted out of my head and runnin
 | **DropIntel** | Paste a supplier product link and get GO, WAIT or AVOID, with six signals behind it | [code](https://github.com/Cruisercc3/drop-intel) · [live](https://v0-drop-intel-platform-architecture.vercel.app) |
 | **CryptoPulse** | Live Polymarket odds turned into crypto trading signals, with one shared rule and an AI brief on each market | [code](https://github.com/Cruisercc3/cryptopulse) · [live](https://thecryptopulse.xyz) |
 | **TermTone** | A retro terminal soundboard, and a small command-line tool that plays its sounds when Claude Code finishes, when it needs you, and when any command you run ends | [code](https://github.com/Cruisercc3/termtone) · [live](https://v0-retro-terminal-soundboard.vercel.app) |
+| **Cognition** | A desktop app that plays generative music tuned for different kinds of focused work, each choice backed by research on sound and attention | [code and a listen](https://github.com/Cruisercc3/cognition) |
 
 Two of these drew a $2,000 purchase offer, which I declined.
 
